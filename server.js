@@ -22,7 +22,7 @@ let server = app.listen(port, () => {
 
 const io = new Server(server, {
     cors: {
-        origin: "*",
+        origin: "https://staging-lab.bootcampshub.ai",
         methods: ["GET", "POST"]
     }
 });
