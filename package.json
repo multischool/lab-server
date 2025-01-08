@@ -1,0 +1,19 @@
+{
+  "name": "lab-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "lab-backend": "file:",
+    "node-pty": "^1.0.0",
+    "socket.io": "^4.8.1"
+  }
+}
